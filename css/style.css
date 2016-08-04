@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url('../img/background.png');
+}
+
+/*HEADER*/
+
+.header {
+    position: relative;
+    width: 1000px;
+    height: 175px;
+    margin: -4px auto 0;
+    border-bottom: 1px solid #128aa7;
+    background: #fff;
+}
+
+.img-header {
+    position: absolute;
+    right: 37px;
+    bottom: 10px;
+}
+
+.header img {
+    padding-top: 11px;
+    padding-left: 26px;
+}
+
+.beach {
+    text-align: center;
+  }
+
+/*NAVIGATION*/
+
+.navigation {
+    width: 1000px;
+    height: 30px;
+    margin: -5px auto 0;
+    border-top: 1px solid #cacbcb;
+    background: #353535;
+    color: #fff;
+    font: 14px arial;
+    }
+
+.navigation ul {
+    list-style: none;
+}
+
+.navigation ul li {
+    position: relative;
+    height: 30px;
+    padding-left: 60px;
+    float: left;
+    line-height: 30px;
+    cursor: pointer;
+}
+
+.navigation li:first-child {
+    padding-left: 68px;
+}
+
+.navigation li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.navigation .subnav {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 50px;
+    width: 150px;
+    height: 125px;
+    background: #303030;
+}
+
+.navigation .subnav li {
+    width: 100%;
+    height: 21px;
+    padding-top: 2px;
+    padding-left: 10px;
+    line-height: 21px;
+}
+
+.navigation li:hover .subnav {
+    display: block;
+}
+
+/*CONTENT*/
+
+.content {
+    width: 1000px;
+    margin: 0 auto;
+    background: #fff;
+    overflow: hidden;
+}
+
+.left-column {
+    width: 210px;
+    margin-bottom: -20000px;
+    padding-bottom: 20000px;
+    float: left;
+    background: #edeef0;
+}
+
+.central-column {
+    width: 580px;
+    margin-bottom: -20000px;
+    padding-bottom: 20000px;
+    float: left;
+}
+
+.right-column {
+    width: 210px;
+    margin-bottom: -20000px;
+    padding-bottom: 20000px;
+    float: right;
+    background: #edeef0;
+}
+
+h2 {
+    padding: 12px 0;
+    color: #424c43;
+    font: 18px arial;
+    font-weight: bold;
+    text-align: center;
+}
+
+p {
+    color: #424c43;
+    font: 13px arial;
+    line-height: 25px;
+    text-align: center;
+}
+
+/*FOOTER*/
+
+.footer p {
+    color: #dee7ee;
+}
