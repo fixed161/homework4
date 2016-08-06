@@ -5,7 +5,12 @@
 
 body {
     background: #128aa7;
-    /*background: linear-gradient(to bottom, #1dcfe3, #f8fefe);*/
+    /**/
+}
+
+.header-bg {
+    background: linear-gradient(to bottom, #1dcfe3, #f8fefe);
+    height: 175px;
 }
 
 .main {
