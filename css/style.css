@@ -4,7 +4,12 @@
 }
 
 body {
-    background: url('../img/background.png');
+    background: #128aa7;
+    /*background: linear-gradient(to bottom, #1dcfe3, #f8fefe);*/
+}
+
+.main {
+    background: linear-gradient(to bottom, #3ec3d1, #0c739f);
 }
 
 /*HEADER*/
