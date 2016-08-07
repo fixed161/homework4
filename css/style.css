@@ -10,8 +10,8 @@ body {
 
 .header-bg {
     position: relative;
-    background: linear-gradient(to bottom, #1dcfe3, #f8fefe);
     height: 175px;
+    background: linear-gradient(to bottom, #1dcfe3, #f8fefe);
 }
 
 .main {
@@ -24,19 +24,19 @@ body {
     position: relative;
     width: 1000px;
     height: 175px;
-    box-shadow: 0 0 5px #0f6578;
     margin: -4px auto 0;
     border-bottom: 1px solid #128aa7;
     background: #fff;
+    box-shadow: 0 0 5px #0f6578;
 }
 
 .header p {
-    float: right;
     margin: 5px 55px 0 0;
-    font-size: 12px;
+    float: right;
     color: #5fa5bb;
-    text-align: left;
+    font-size: 12px;
     line-height: 20px;
+    text-align: left;
 }
 
 .header p span {
@@ -45,8 +45,8 @@ body {
 
 .header ul {
     position: absolute;
-    bottom: 23px;
     right: 36px;
+    bottom: 23px;
     list-style-type: none;
 }
 
@@ -55,27 +55,26 @@ body {
 }
 
 .header a {
-    font-size: 12px;
     color: #128aa7;
+    font-size: 12px;
 }
 
 .countries {
     position: absolute;
-    bottom: 10px;
     right: 166px;
-    width: 428px;
+    bottom: 10px;
     list-style-type: none;
-    text-align: justify;
 }
 
 .countries li {
     display: inline;
-    padding-left: 20px;
     width: 71px;
+    padding-left: 20px;
 }
+
 .countries li a {
-    font-size: 13px;
     color: #128aa7;
+    font-size: 13px;
 }
 
 .header img {
@@ -97,7 +96,7 @@ body {
     background: #353535;
     color: #fff;
     font: 14px arial;
-      box-shadow: 0 0 10px #0f6578;
+    box-shadow: 0 0 10px #0f6578;
     }
 
 .navigation ul {
@@ -151,8 +150,8 @@ body {
     width: 1000px;
     margin: 0 auto;
     background: #fff;
+    box-shadow: 0 0 5px #0f6578;
     overflow: hidden;
-      box-shadow: 0 0 5px #0f6578;
 }
 
 .left-column {
