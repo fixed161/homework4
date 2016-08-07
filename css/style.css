@@ -24,6 +24,7 @@ body {
     position: relative;
     width: 1000px;
     height: 175px;
+    box-shadow: 0 0 5px #0f6578;
     margin: -4px auto 0;
     border-bottom: 1px solid #128aa7;
     background: #fff;
@@ -84,7 +85,7 @@ body {
 
 .beach {
     text-align: center;
-  }
+}
 
 /*NAVIGATION*/
 
@@ -96,6 +97,7 @@ body {
     background: #353535;
     color: #fff;
     font: 14px arial;
+      box-shadow: 0 0 10px #0f6578;
     }
 
 .navigation ul {
@@ -128,6 +130,7 @@ body {
     width: 150px;
     height: 125px;
     background: #303030;
+    box-shadow: 0 0 10px #474747;
 }
 
 .navigation .subnav li {
@@ -149,6 +152,7 @@ body {
     margin: 0 auto;
     background: #fff;
     overflow: hidden;
+      box-shadow: 0 0 5px #0f6578;
 }
 
 .left-column {
