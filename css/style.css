@@ -9,6 +9,7 @@ body {
 }
 
 .header-bg {
+    position: relative;
     background: linear-gradient(to bottom, #1dcfe3, #f8fefe);
     height: 175px;
 }
@@ -28,9 +29,22 @@ body {
     background: #fff;
 }
 
+.header p {
+    float: right;
+    margin: 5px 55px 0 0;
+    font-size: 12px;
+    color: #5fa5bb;
+    text-align: left;
+    line-height: 20px;
+}
+
+.header p span {
+    font-weight: bold;
+}
+
 .header ul {
     position: absolute;
-    bottom: 10px;
+    bottom: 23px;
     right: 36px;
     list-style-type: none;
 }
@@ -41,6 +55,25 @@ body {
 
 .header a {
     font-size: 12px;
+    color: #128aa7;
+}
+
+.countries {
+    position: absolute;
+    bottom: 10px;
+    right: 166px;
+    width: 428px;
+    list-style-type: none;
+    text-align: justify;
+}
+
+.countries li {
+    display: inline;
+    padding-left: 20px;
+    width: 71px;
+}
+.countries li a {
+    font-size: 13px;
     color: #128aa7;
 }
 
